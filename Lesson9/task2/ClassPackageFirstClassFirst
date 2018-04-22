@@ -1,0 +1,18 @@
+public class ClassPackageFirstClassFirst {
+    int variableDefault = 10;
+    public int variablePublic = 5;
+    private int variablePrivate = 15;
+
+    void methodDefault () {
+        System.out.println("Я дефолтный метод!");
+
+    }
+    public void methodPublic () {
+        System.out.println("Я публичный метод!");
+
+    }
+    private void methodPrivate () {
+        System.out.println("Я Приватный метод метод!");
+
+    }
+}
